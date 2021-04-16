@@ -6,12 +6,12 @@ const Background = () => (
   <div>
     <ViewSource pathname="pages/background.js" />
     <div className={bgWrap}>
-      <Image
+      <img
         alt="Mountains"
         src="/mountains.jpg"
         layout="fill"
         objectFit="cover"
-        quality={100}
+        
       />
     </div>
     <p className={bgText}>
